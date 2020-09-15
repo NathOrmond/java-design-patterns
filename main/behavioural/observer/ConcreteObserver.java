@@ -2,14 +2,14 @@ package behavioural.observer;
 
 public class ConcreteObserver implements IObserver{
 	
-	private ConcreteObservable observable;
+	private IObservable observable;
 	
-	public ConcreteObserver(ConcreteObservable observable) {
+	public ConcreteObserver(IObservable observable) {
 		this.observable = observable;
 	}
 
 	public void update() {
-		this.observable.getState();
+		System.out.print(String.format("Observer state changed to: %s", this.observable.getState()));
 	}
 
 }
