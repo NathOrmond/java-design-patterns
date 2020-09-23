@@ -1,4 +1,4 @@
-package behavioural.command;
+package behavioural.command.generic;
 
 public class Command implements ICommand{
 
