@@ -1,4 +1,4 @@
-package structural.adaptor;
+package structural.adaptor.generic;
 
 public class Client {
 	
